@@ -1,4 +1,4 @@
-# Análisis de Nathan con los datos de WWF
+# Distribution of mammals in the Americas among different Biomes
 
 # . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 # function
@@ -7,6 +7,8 @@ swap <- function(x, from, to) {   tmp <- to[ match(x, from) ]
 # . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 # Load and clean WWF data
+# To run this script you will need to download the files of WildFinder Database
+# https://www.worldwildlife.org/publications/wildfinder-database
 
 setwd("G:/Mi unidad/STRI_CTPA/GABI")
 
