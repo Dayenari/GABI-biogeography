@@ -10,10 +10,18 @@ swap <- function(x, from, to) {   tmp <- to[ match(x, from) ]
 # To run this script you will need to download the files of WildFinder Database
 # https://www.worldwildlife.org/publications/wildfinder-database
 
-setwd("G:/Mi unidad/STRI_CTPA/GABI")
+# set the working directory to the folder containing this script:
+# (similar to RStudio menu "Session - Set Working Directory - To Source File Location"
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+getwd()
+dir()
 
-# Load wwf 
+# Load data from the WildFinder Database
+
+# Option 1
+install.packages("RODBC")
 library(RODBC)
+
 wwf <- odbcConnectAccess2007(path.expand("WildfinderUpdate.mdb")) 
 spp <- sqlFetch(wwf, "species") 
 genus <- sqlFetch(wwf, "genus") 
@@ -24,6 +32,34 @@ ecorspp <- sqlFetch(wwf, "ecoregion_species")
 ecor <- sqlFetch(wwf, "ecoregions") 
 biome <- sqlFetch(wwf, "biomes") 
 
+# Option 2
+# You must install the mdbtools package
+# https://github.com/mdbtools/mdbtools
+# For a Mac in the terminal 
+# install Home brew https://brew.sh/
+# then run: brew install mdbtools
+install.packages("Hmisc")
+library(Hmisc)
+
+# Read .mdb file
+wwf <-mdb.get('WildfinderUpdate.mdb')
+contents(wwf)
+spp <- wwf$species
+names(spp) <- gsub("\\.", "_", names(spp))
+genus <-wwf$genus
+names(genus) <- gsub("\\.", "_", names(genus))
+family <- wwf$family
+names(family) <- gsub("\\.", "_", names(family))
+order <- wwf$order_
+names(order) <- gsub("\\.", "_", names(order))
+classx <- wwf$class
+names(classx) <- gsub("\\.", "_", names(classx))
+ecorspp <- wwf$ecoregion_species
+names(ecorspp) <- gsub("\\.", "_", names(ecorspp))
+ecor <- wwf$ecoregions 
+names(ecor) <- gsub("\\.", "_", names(ecor))
+biome <- wwf$biomes 
+names(biome) <- gsub("\\.", "_", names(biome))
 # . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 # Clean taxonomical dataframe
@@ -48,7 +84,8 @@ wwf_mams <- wwf_by_sp[which(wwf_by_sp$CLASS == "Mammalia"),]
 # SET ECOREGIONS AND FILTER AMERICAN ECOREGIONS
 wwf_mams$ECOREGION_NAME <- as.character(swap(wwf_mams$ECOREGION_CODE, ecor$ECOREGION_CODE, ecor$ECOREGION_NAME))
 
-# load (our) biomes
+# load table with equivalences of wwf biomes and the biomes defined in this work
+install.packages("readxl")
 library (readxl)
 wwf_biomes <- read_excel("wwf_New_Biomes.xlsx", col_names=TRUE)
 
@@ -88,7 +125,8 @@ tax_info$ORDER <- aggregate(amer_mams$ORDER ~ amer_mams$SCIENTIFIC_NAME, FUN = u
 
 
 # from Nathan's dataframe
-load(file="C:/Users/ASUS/Dropbox/MS_2021_GABI/GABI_mammalClades/mamPhy360_wwf360Grid_land_NewWorld_NewBiomeAreas_REFINED.Rda")
+#load(file="C:/Users/ASUS/Dropbox/MS_2021_GABI/GABI_mammalClades/mamPhy360_wwf360Grid_land_NewWorld_NewBiomeAreas_REFINED.Rda")
+load("mamPhy360_wwf360Grid_land_NewWorld_NewBiomeAreas_REFINED.Rda")
 
 # from spp
 ori_class <- aggregate(mamPhy360_NW_wNewBiomes$Origin_Class ~ mamPhy360_NW_wNewBiomes$scientificname, FUN = unique)
@@ -113,7 +151,6 @@ na_gen = which(is.na(tax_info$Origin_Class))
 tax_info$Origin_Class[na_gen] <- as.factor(swap(toupper(tax_info$FAMILY[na_gen]), ori_class_fam[,1], ori_class_fam[ ,2]))
 
 # from Juan
-
 juans <- read.csv("no_matched_spp_origin.csv")
 
 juans$Origin_factor = ifelse(juans$Origin == "North America/South America", "both",juans$Origin)
