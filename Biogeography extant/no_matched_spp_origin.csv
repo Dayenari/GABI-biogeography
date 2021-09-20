@@ -1,0 +1,18 @@
+,GENUS,SPECIES,SCIENTIFIC_NAME,SPECIES_ID,GENUS_ID,FAMILY_ID,FAMILY,ORDER_ID,ORDER,CLASS_ID,,Origin
+11810,Nyctinomops,aurispinosus,Nyctinomops_aurispinosus,14452,3008,102,Molossidae,11,Chiroptera,3,,North America/South America
+11811,Nyctinomops,femorosaccus,Nyctinomops_femorosaccus,14453,3008,102,Molossidae,11,Chiroptera,3,,North America/South America
+11812,Nyctinomops,laticaudatus,Nyctinomops_laticaudatus,14454,3008,102,Molossidae,11,Chiroptera,3,,North America/South America
+11813,Nyctinomops,macrotis,Nyctinomops_macrotis,14455,3008,102,Molossidae,11,Chiroptera,3,,North America/South America
+12883,Clethrionomys,californicus,Clethrionomys_californicus,15756,953,358,Muridae,52,Rodentia,3,,North America
+12885,Clethrionomys,gapperi,Clethrionomys_gapperi,15758,953,358,Muridae,52,Rodentia,3,,North America
+13639,Bolomys,amoenus,Bolomys_amoenus,16698,498,358,Muridae,52,Rodentia,3,,North America
+13640,Bolomys,lasiurus,Bolomys_lasiurus,16700,498,358,Muridae,52,Rodentia,3,,North America
+13641,Bolomys,obscurus,Bolomys_obscurus,16701,498,358,Muridae,52,Rodentia,3,,North America
+13643,Bolomys,temchuki,Bolomys_temchuki,16703,498,358,Muridae,52,Rodentia,3,,North America
+13655,Chroeomys,andinus,Chroeomys_andinus,16718,900,358,Muridae,52,Rodentia,3,,North America
+13656,Chroeomys,jelskii,Chroeomys_jelskii,16719,900,358,Muridae,52,Rodentia,3,,North America
+14024,Hydrochaeris,hydrochaeris,Hydrochaeris_hydrochaeris,17165,2010,356,Hydrochaeridae,52,Rodentia,3,,South America
+14035,Agouti,paca,Agouti_paca,17179,98,338,Agoutidae,52,Rodentia,3,,South America
+14036,Agouti,taczanowskii,Agouti_taczanowskii,17180,98,338,Agoutidae,52,Rodentia,3,,South America
+25490,Clethrionomys,rutilus,Clethrionomys_rutilus,15761,953,358,Muridae,52,Rodentia,3,,North America
+25581,Bolomys,lactens,Bolomys_lactens,16699,498,358,Muridae,52,Rodentia,3,,North America

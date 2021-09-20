@@ -170,7 +170,11 @@ tax_info$Equivalent <- swap(tax_info$SCIENTIFIC_NAME, vertlife$MSW3_sciName_matc
 tax_info$Equivalent_source[is.na(tax_info$Equivalent) == FALSE] <- "VertLife_MSW3"
 
 # Species with no equivalent in  Vert or Nathan's Database
-write.csv(tax_info[na_vl_equiv,], "taxa_without_equivalent.csv")
+#write.csv(tax_info[na_vl_equiv,], "taxa_without_equivalent.csv")
+# We checked manually the species from the MSW3 taxonomy (used in the WildFinder Database) that had no match in
+# VertLife taxonomy. We matched the synonyms for each species following the taxonomic information from VertLife
+# and the ASM Mammal Diversity Database
+# https://www.mammaldiversity.org/index.html
 
 
 # . . . . . . . . . . . . . . . . . . . 
@@ -179,7 +183,7 @@ write.csv(tax_info[na_vl_equiv,], "taxa_without_equivalent.csv")
 amer_mams$Origin_Class <- swap(amer_mams$SCIENTIFIC_NAME, tax_info$SCIENTIFIC_NAME, tax_info$Origin_Class)
 which(is.na(amer_mams$Origin_Class)) # zero
 
-# Rectification from Paramos (JUAN's)
+# Revision of occurrences in Paramos Ecoregions
 rectified <- read.csv("Mountain Ecoregion Species.csv") 
 not <- rectified[which(rectified$RECTIFIED == "yes" ), c("GENUS","SPECIES","ECOREGION.CODE") ]
 not_c <- paste(not$GENUS, not$SPECIES, not$ECOREGION.CODE, sep= ":")
