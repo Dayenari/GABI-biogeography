@@ -18,48 +18,50 @@ dir()
 
 # Load data from the WildFinder Database
 
-# Option 1
-install.packages("RODBC")
-library(RODBC)
+if(Sys.info()[[1]] == "Windows") {
+	# Option 1 (Windows)
+	install.packages("RODBC")
+	library(RODBC)
 
-wwf <- odbcConnectAccess2007(path.expand("WildfinderUpdate.mdb")) 
-spp <- sqlFetch(wwf, "species") 
-genus <- sqlFetch(wwf, "genus") 
-family <- sqlFetch(wwf, "family")
-order <- sqlFetch(wwf, "order_")
-classx <- sqlFetch(wwf, "class")
-ecorspp <- sqlFetch(wwf, "ecoregion_species")
-ecor <- sqlFetch(wwf, "ecoregions") 
-biome <- sqlFetch(wwf, "biomes") 
+	wwf <- odbcConnectAccess2007(path.expand("WildfinderUpdate.mdb")) 
+	spp <- sqlFetch(wwf, "species") 
+	genus <- sqlFetch(wwf, "genus") 
+	family <- sqlFetch(wwf, "family")
+	order <- sqlFetch(wwf, "order_")
+	classx <- sqlFetch(wwf, "class")
+	ecorspp <- sqlFetch(wwf, "ecoregion_species")
+	ecor <- sqlFetch(wwf, "ecoregions") 
+	biome <- sqlFetch(wwf, "biomes") 
+} else {
+	# Option 2 (Mac / Linux)
+	# You must install the mdbtools package
+	# https://github.com/mdbtools/mdbtools
+	# For a Mac in the terminal 
+	# install Home brew https://brew.sh/
+	# then run: brew install mdbtools
+	install.packages("Hmisc")
+	library(Hmisc)
 
-# Option 2
-# You must install the mdbtools package
-# https://github.com/mdbtools/mdbtools
-# For a Mac in the terminal 
-# install Home brew https://brew.sh/
-# then run: brew install mdbtools
-install.packages("Hmisc")
-library(Hmisc)
-
-# Read .mdb file
-wwf <-mdb.get('WildfinderUpdate.mdb')
-contents(wwf)
-spp <- wwf$species
-names(spp) <- gsub("\\.", "_", names(spp))
-genus <-wwf$genus
-names(genus) <- gsub("\\.", "_", names(genus))
-family <- wwf$family
-names(family) <- gsub("\\.", "_", names(family))
-order <- wwf$order_
-names(order) <- gsub("\\.", "_", names(order))
-classx <- wwf$class
-names(classx) <- gsub("\\.", "_", names(classx))
-ecorspp <- wwf$ecoregion_species
-names(ecorspp) <- gsub("\\.", "_", names(ecorspp))
-ecor <- wwf$ecoregions 
-names(ecor) <- gsub("\\.", "_", names(ecor))
-biome <- wwf$biomes 
-names(biome) <- gsub("\\.", "_", names(biome))
+	# Read .mdb file
+	wwf <-mdb.get('WildfinderUpdate.mdb')
+	contents(wwf)
+	spp <- wwf$species
+	names(spp) <- gsub("\\.", "_", names(spp))
+	genus <-wwf$genus
+	names(genus) <- gsub("\\.", "_", names(genus))
+	family <- wwf$family
+	names(family) <- gsub("\\.", "_", names(family))
+	order <- wwf$order_
+	names(order) <- gsub("\\.", "_", names(order))
+	classx <- wwf$class
+	names(classx) <- gsub("\\.", "_", names(classx))
+	ecorspp <- wwf$ecoregion_species
+	names(ecorspp) <- gsub("\\.", "_", names(ecorspp))
+	ecor <- wwf$ecoregions 
+	names(ecor) <- gsub("\\.", "_", names(ecor))
+	biome <- wwf$biomes 
+	names(biome) <- gsub("\\.", "_", names(biome))
+}
 # . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 # Clean taxonomical dataframe
