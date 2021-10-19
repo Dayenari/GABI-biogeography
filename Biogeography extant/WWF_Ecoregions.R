@@ -1,7 +1,7 @@
 # Distribution of mammals in the Americas among different Biomes
 
 # . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
-# function
+# auxiliar function su wap objects from a dataframe
 swap <- function(x, from, to) {   tmp <- to[ match(x, from) ]
   return(tmp)}
 # . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
@@ -153,11 +153,8 @@ tax_info$Origin_Class[na_gen] <- as.factor(swap(toupper(tax_info$FAMILY[na_gen])
 # from Juan
 juans <- read.csv("no_matched_spp_origin.csv")
 
-juans$Origin_factor = ifelse(juans$Origin == "North America/South America", "both",juans$Origin)
-juans$Origin_factor = as.factor(gsub("th Amer", "th_Amer", juans$Origin_factor))
-
 na_fam = which(is.na(tax_info$Origin_Class))
-tax_info$Origin_Class[na_fam] <- as.factor(swap(tax_info$SCIENTIFIC_NAME[na_fam],juans$SCIENTIFIC_NAME,juans$Origin_factor))
+tax_info$Origin_Class[na_fam] <- as.factor(swap(tax_info$SCIENTIFIC_NAME[na_fam],juans$SCIENTIFIC_NAME,juans$Origin))
 
 # . . . . . . . . . . . . . . . . . . . 
 
@@ -170,7 +167,8 @@ tax_info$Equivalent <- swap(tax_info$SCIENTIFIC_NAME, vertlife$MSW3_sciName_matc
 tax_info$Equivalent_source[is.na(tax_info$Equivalent) == FALSE] <- "VertLife_MSW3"
 
 # Species with no equivalent in  Vert or Nathan's Database
-#write.csv(tax_info[na_vl_equiv,], "taxa_without_equivalent.csv")
+# na_vl_equiv <- which(is.na(tax_info$Equivalent))
+# write.csv(tax_info[na_vl_equiv,], "taxa_without_equivalent.csv")
 # We checked manually the species from the MSW3 taxonomy (used in the WildFinder Database) that had no match in
 # VertLife taxonomy. We matched the synonyms for each species following the taxonomic information from VertLife
 # and the ASM Mammal Diversity Database
