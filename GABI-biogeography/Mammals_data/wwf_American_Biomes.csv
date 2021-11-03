@@ -1,0 +1,299 @@
+ECOREGION_CODE,ECO_NAME,REALM,BIOME,G200_REGIO,New_Biome,New_Biome_2
+NA0601,Alaska Peninsula montane taiga,NA,6, ,NA_TeF,NA_TeF
+NA1101,Alaska-St. Elias Range tundra,NA,11, ,NA_TeG,NA_TeG
+NA0501,Alberta Mountain forests,NA,5, ,NA_TeF,NA_TeF
+NA0502,Alberta-British Columbia foothills forests,NA,5, ,NA_TeF,NA_TeF
+NA1102,Aleutian Islands tundra,NA,11, ,NA_TeG,NA_TeG
+NA0401,Allegheny Highlands forests,NA,4, ,NA_TeF,NA_TeF
+NT0150,Alto Parana Atlantic forests,NT,1,Atlantic Forests,AH,YM
+NT1401,Amazon-Orinoco-Southern Caribbean mangroves,NT,14,Amazon-Orinoco-Southern Caribbean mangroves,N.A.,N.A.
+NA0402,Appalachian mixed mesophytic forests,NA,4,Appalachian and Mixed Mesophytic forests,NA_TeF,NA_TeF
+NA0403,Appalachian-Blue Ridge forests,NA,4,Appalachian and Mixed Mesophytic forests,NA_TeF,NA_TeF
+NT0201,Apure-Villavicencio dry forests,NT,2, ,SA_TrG,SA_TrG
+NT0101,Araucaria moist forests,NT,1,Atlantic Forests,AH,YM
+NT1301,Araya and Paria xeric scrub,NT,13, ,SA_TrG,SA_TrG
+NA1103,Arctic coastal tundra,NA,11,Alaskan North Slope coastal tundra,NA_TeG,NA_TeG
+NA1104,Arctic foothills tundra,NA,11,Alaskan North Slope coastal tundra,NA_TeG,NA_TeG
+NA0503,Arizona Mountains forests,NA,5, ,NA_TeF,NA_TeF
+NT1303,Atacama desert,NT,13,Atacama-Sechura Deserts,SA_TeG,SA_TeG
+NT0102,Atlantic Coast restingas,NT,1,Atlantic Forests,AH,YM
+NA0504,Atlantic coastal pine barrens,NA,5, ,NA_TeF,NA_TeF
+NT0202,Atlantic dry forests,NT,2,Atlantic Dry Forests,SA_TrF,SA_TrF
+NA1105,Baffin coastal tundra,NA,11, ,NA_TeG,NA_TeG
+NT0301,Bahamian pine mosaic,NT,3, ,N.A.,N.A.
+NT1402,Bahamian-Antillean mangroves,NT,14, ,N.A.,N.A.
+NT0103,Bahia coastal forests,NT,1,Atlantic Forests,AH,YM
+NT0104,Bahia interior forests,NT,1,Atlantic Forests,AH,YM
+NA1301,Baja California desert,NA,13,Sonoran-Baja Deserts,NA_TeG,NA_TeG
+NT0204,Bajio dry forests,NT,2,Southern Mexican Dry Forests,NA_TrF,NA_TrF
+NT0205,Balsas dry forests,NT,2,Southern Mexican Dry Forests,NA_TrF,NA_TrF
+NT0302,Belizian pine forests,NT,3, ,NA_TrG,NA_TrG
+NT0702,Beni savanna,NT,7, ,SA_TrG,SA_TrG
+NA1106,Beringia lowland tundra,NA,11, ,NA_TeG,NA_TeG
+NA1107,Beringia upland tundra,NA,11, ,NA_TeG,NA_TeG
+NA0301,Bermuda subtropical conifer forests,NA,3, ,N.A.,N.A.
+NA0505,Blue Mountains forests,NA,5, ,NA_TeF,NA_TeF
+NT0206,Bolivian montane dry forests,NT,2, ,AH,AH
+NT0105,Bolivian Yungas,NT,1,Central Andean Yungas,AH,YM
+NA0506,British Columbia mainland coastal forests,NA,5,Pacific temperate rainforests,NA_TeF,NA_TeF
+NA1108,Brooks-British Range tundra,NA,11, ,NA_TeG,NA_TeG
+NT1304,Caatinga,NT,13, ,SA_TrG,SA_TrG
+NT0106,Caatinga Enclaves moist forests,NT,1,Atlantic Forests,SA_TrF,SA_TrF
+NA0801,California Central Valley grasslands,NA,8, ,NA_TeG,NA_TeG
+NA1201,California coastal sage and chaparral,NA,12,California chaparral and woodlands,NA_TeG,NA_TeG
+NA1202,California interior chaparral and woodlands,NA,12,California chaparral and woodlands,NA_TeG,NA_TeG
+NA1203,California montane chaparral and woodlands,NA,12,California chaparral and woodlands,NA_TeG,NA_TeG
+NT0703,Campos Rupestres montane savanna,NT,7,Atlantic Forests,AH,YM
+NA0802,Canadian Aspen forests and parklands,NA,8, ,NA_TeF,NA_TeF
+NT0107,Caqueta moist forests,NT,1,Rio Negro-Jurua Moist Forests,SA_TrF,SA_TrF
+NT1305,Caribbean shrublands,NT,13, ,N.A.,N.A.
+NA0507,Cascade Mountains leeward forests,NA,5, ,NA_TeF,NA_TeF
+NT0108,Catatumbo moist forests,NT,1, ,SA_TrF,SA_TrF
+NT0207,Cauca Valley dry forests,NT,2,Tumbesian-Andean Valleys Dry Forests,SA_TrF,SA_TrF
+NT0109,Cauca Valley montane forests,NT,1,Northern Andean Montane Forests,AH,AH
+NT0110,Cayos Miskitos-San Andres and Providencia moist forests,NT,1, ,N.A.,N.A.
+NT0111,Central American Atlantic moist forests,NT,1, ,NA_TrF,NA_TrF
+NT0209,Central American dry forests,NT,2, ,NA_TrF,NA_TrF
+NT0112,Central American montane forests,NT,1,Mesoamerican Pine-Oak Forests,AH,AH
+NT0303,Central American pine-oak forests,NT,3,Mesoamerican Pine-Oak Forests,NA_TrF,NA_TrF
+NA0508,Central and Southern Cascades forests,NA,5, ,NA_TeF,NA_TeF
+NA0803,Central and Southern mixed grasslands,NA,8, ,NA_TeG,NA_TeG
+NT1001,Central Andean dry puna,NT,10,Central Andean Dry Puna,SA_TeG,SA_TeG
+NT1002,Central Andean puna,NT,10, ,SA_TeG,SA_TeG
+NT1003,Central Andean wet puna,NT,10, ,SA_TeG,SA_TeG
+NA0509,Central British Columbia Mountain forests,NA,5, ,NA_TeF,NA_TeF
+NA0602,Central Canadian Shield forests,NA,6, ,NA_TeF,NA_TeF
+NA0804,Central forest-grasslands transition,NA,8, ,NA_TeG,NA_TeG
+NA1302,Central Mexican matorral,NA,13, ,NA_TrG,NA_TrG
+NA0510,Central Pacific coastal forests,NA,5,Pacific temperate rainforests,NA_TeF,NA_TeF
+NA0805,Central tall grasslands,NA,8, ,NA_TeG,NA_TeG
+NA0404,Central U.S. hardwood forests,NA,4, ,NA_TeF,NA_TeF
+NT0704,Cerrado,NT,7,Cerrado Woodlands and Savannas,SA_TrG,SA_TrG
+NT0211,Chiapas Depression dry forests,NT,2,Southern Mexican Dry Forests,NA_TrF,NA_TrF
+NT0113,Chiapas montane forests,NT,1, ,NA_TrF,NA_TrF
+NA1303,Chihuahuan desert,NA,13,Chihuahuan-Tehuacan Deserts,NA_TeG,NA_TeG
+NT1201,Chilean matorral,NT,12,Chilean Matorral,SA_TeG,SA_TeG
+NT0114,Chimalapas montane forests,NT,1,Mesoamerican Pine-Oak Forests,NA_TrF,NA_TrF
+NT0212,Chiquitano dry forests,NT,2,Chiquitano Dry Forests,SA_TrF,SA_TrF
+NT0115,Choco-Darien moist forests,NT,1,Choco-Darien Moist Forests,NA_TrF,NA_TrF
+NT0705,Clipperton Island shrub and grasslands,NT,7, ,N.A.,N.A.
+NT0116,Cocos Island moist forests,NT,1, ,N.A.,N.A.
+NA1304,Colorado Plateau shrublands,NA,13, ,NA_TeG,NA_TeG
+NA0511,Colorado Rockies forests,NA,5, ,NA_TeF,NA_TeF
+NA0603,Cook Inlet taiga,NA,6, ,NA_TeF,NA_TeF
+NA0604,Copper Plateau taiga,NA,6, ,NA_TeF,NA_TeF
+NT1004,Cordillera Central paramo,NT,10,Northern Andean Paramo,SA_TeG,SA_TeG
+NT1005,Cordillera de Merida paramo,NT,10,Northern Andean Paramo,SA_TeG,SA_TeG
+NT0117,Cordillera La Costa montane forests,NT,1,Coastal Venezuela Montane Forests,AH,AH
+NT0118,Cordillera Oriental montane forests,NT,1,Northern Andean Montane Forests,AH,AH
+NT0119,Costa Rican seasonal moist forests,NT,1, ,NA_TrF,NA_TrF
+NT1306,Cuban cactus scrub,NT,13, ,N.A.,N.A.
+NT0213,Cuban dry forests,NT,2, ,N.A.,N.A.
+NT0120,Cuban moist forests,NT,1,Greater Antillean Moist Forests,N.A.,N.A.
+NT0304,Cuban pine forests,NT,3,Greater Antillean Pine Forests,N.A.,N.A.
+NT0902,Cuban wetlands,NT,9, ,N.A.,N.A.
+NA1109,Davis Highlands tundra,NA,11, ,NA_TeG,NA_TeG
+NT0210,Dry Chaco,NT,7, ,SA_TeG,SA_TeG
+NA0405,East Central Texas forests,NA,4, ,NA_TeF,NA_TeF
+NA0605,Eastern Canadian forests,NA,6, ,NA_TeF,NA_TeF
+NA0606,Eastern Canadian Shield taiga,NA,6,Canadian boreal taiga,NA_TeF,NA_TeF
+NA0512,Eastern Cascades forests,NA,5, ,NA_TeF,NA_TeF
+NT0121,Eastern Cordillera real montane forests,NT,1,Northern Andean Montane Forests,AH,AH
+NA0406,Eastern forest-boreal transition,NA,4, ,NA_TeF,NA_TeF
+NA0407,Eastern Great Lakes lowland forests,NA,4, ,NA_TeF,NA_TeF
+NT0122,Eastern Panamanian montane forests,NT,1,Choco-Darien Moist Forests,NA_TrF,NA_TrF
+NT0214,Ecuadorian dry forests,NT,2,Tumbesian-Andean Valleys Dry Forests,SA_TrF,SA_TrF
+NA0806,Edwards Plateau savanna,NA,8, ,NA_TeG,NA_TeG
+NT0903,Enriquillo wetlands,NT,9, ,N.A.,N.A.
+NT0801,Espinal,NT,8, ,SA_TeG,SA_TeG
+NT0904,Everglades,NT,9,Everglades Flooded Grasslands,NA_TeG,NA_TeG
+NT0123,Fernando de Noronha-Atol das Rocas moist forests,NT,1, ,N.A.,N.A.
+NA0807,Flint Hills tall grasslands,NA,8, ,NA_TeG,NA_TeG
+NA0513,Florida sand pine scrub,NA,5, ,NA_TeG,NA_TeG
+NA0514,Fraser Plateau and Basin complex,NA,5, ,NA_TeF,NA_TeF
+NT1307,Galapagos Islands scrubland mosaic,NT,13,Galapagos Islands Scrub,N.A.,N.A.
+NA0515,Great Basin montane forests,NA,5, ,NA_TeF,NA_TeF
+NA1305,Great Basin shrub steppe,NA,13, ,NA_TeG,NA_TeG
+NT1308,Guajira-Barranquilla xeric scrub,NT,13, ,SA_TrG,SA_TrG
+NT0905,Guayaquil flooded grasslands,NT,9, ,SA_TrG,SA_TrG
+NT0149,Guianan freshwater swamp forests,NT,1,Guianan Moist Forests,SA_TrF,SA_TrF
+NT0124,Guianan Highlands moist forests,NT,1,Guianan Highlands Moist Forests,SA_TrF,SA_TrF
+NT0125,Guianan moist forests,NT,1,Guianan Moist Forests,SA_TrF,SA_TrF
+NT0182,Guianan piedmont and lowland moist forests,NT,1,Guianan Highlands Moist Forests,SA_TrF,SA_TrF
+NT0707,Guianan savanna,NT,7, ,SA_TrG,SA_TrG
+NA1306,Gulf of California xeric scrub,NA,13,Sonoran-Baja Deserts,NA_TeG,NA_TeG
+NA0408,Gulf of St. Lawrence lowland forests,NA,4, ,NA_TeF,NA_TeF
+NT0126,Gurupa varzea,NT,1,Amazon River and Flooded Forests,SA_TrF,SA_TrF
+NA1110,High Arctic tundra,NA,11, ,NA_TeG,NA_TeG
+NT1010,High Monte,NT,10, ,SA_TeG,SA_TeG
+NT0215,Hispaniolan dry forests,NT,2, ,N.A.,N.A.
+NT0127,Hispaniolan moist forests,NT,1,Greater Antillean Moist Forests,N.A.,N.A.
+NT0305,Hispaniolan pine forests,NT,3,Greater Antillean Pine Forests,N.A.,N.A.
+NT0708,Humid Chaco,NT,7, ,SA_TeG,SA_TeG
+NT0803,Humid Pampas,NT,8, ,SA_TeG,SA_TeG
+NA0607,Interior Alaska-Yukon lowland taiga,NA,6, ,NA_TeF,NA_TeF
+NA1111,Interior Yukon-Alaska alpine tundra,NA,11, ,NA_TeG,NA_TeG
+NT0128,Iquitos varzea,NT,1,Amazon River and Flooded Forests,SA_TrF,SA_TrF
+NT0216,Islas Revillagigedo dry forests,NT,2, ,N.A.,N.A.
+NT0129,Isthmian-Atlantic moist forests,NT,1, ,NA_TrF,NA_TrF
+NT0130,Isthmian-Pacific moist forests,NT,1, ,NA_TrF,NA_TrF
+NT0217,Jalisco dry forests,NT,2,Southern Mexican Dry Forests,NA_TrF,NA_TrF
+NT0218,Jamaican dry forests,NT,2, ,N.A.,N.A.
+NT0131,Jamaican moist forests,NT,1,Greater Antillean Moist Forests,N.A.,N.A.
+NT0132,Japura-Solimoes-Negro moist forests,NT,1,Rio Negro-Jurua Moist Forests,SA_TrF,SA_TrF
+NT0401,Juan Fernandez Islands temperate forests,NT,4,Valdivian Temperate Rain Forests / Juan Fernandez Islands,N.A.,N.A.
+NT0133,Jurua-Purus moist forests,NT,1,Southwestern Amazonian Moist Forests,SA_TrF,SA_TrF
+NA1112,Kalaallit Nunaat high arctic tundra,NA,11, ,NA_TeG,NA_TeG
+NA1113,Kalaallit Nunaat low arctic tundra,NA,11, ,NA_TeG,NA_TeG
+NA0516,Klamath-Siskiyou forests,NA,5,Klamath-Siskiyou coniferous forests,NA_TeF,NA_TeF
+NT1309,La Costa xeric shrublands,NT,13, ,SA_TrG,SA_TrG
+NA,Lake, ,98, ,N.A.,N.A.
+NA,Lake,NT,98, ,N.A.,N.A.
+NT0219,Lara-Falcon dry forests,NT,2, ,SA_TrG,SA_TrG
+NT0134,Leeward Islands moist forests,NT,1, ,N.A.,N.A.
+NT0220,Lesser Antillean dry forests,NT,2, ,N.A.,N.A.
+NT0709,Llanos,NT,7,Llanos Savannas,SA_TrG,SA_TrG
+NA1114,Low Arctic tundra,NA,11,Canadian Low Arctic tundra,NA_TeG,NA_TeG
+NT0802,Low Monte,NT,8, ,SA_TeG,SA_TeG
+NT0135,Madeira-Tapajos moist forests,NT,1,Southwestern Amazonian Moist Forests,SA_TrF,SA_TrF
+NT0221,Magdalena Valley dry forests,NT,2,Tumbesian-Andean Valleys Dry Forests,SA_TrF,SA_TrF
+NT0136,Magdalena Valley montane forests,NT,1,Northern Andean Montane Forests,AH,AH
+NT0137,Magdalena-Uraba moist forests,NT,1,Choco-Darien Moist Forests,SA_TrF,SA_TrF
+NT0402,Magellanic subpolar forests,NT,4, ,SA_TeF,SA_TeF
+NT1311,Malpelo Island xeric scrub,NT,13, ,N.A.,N.A.
+NT0222,Maracaibo dry forests,NT,2, ,SA_TrF,SA_TrF
+NT0138,Marajo varzea,NT,1,Amazon River and Flooded Forests,SA_TrF,SA_TrF
+NT0139,Maranhao Babacu forests,NT,1, ,SA_TrF,SA_TrF
+NT0223,Maranhon dry forests,NT,2,Tumbesian-Andean Valleys Dry Forests,SA_TrF,SA_TrF
+NT0140,Mato Grosso seasonal forests,NT,1, ,SA_TrF,SA_TrF
+NA1307,Meseta Central matorral,NA,13,Chihuahuan-Tehuacan Deserts,NA_TrG,NA_TrG
+NT1403,Mesoamerican Gulf-Caribbean mangroves,NT,14, ,N.A.,N.A.
+NA0608,Mid-Continental Canadian forests,NA,6, ,NA_TeF,NA_TeF
+NA1115,Middle Arctic tundra,NA,11, ,NA_TeG,NA_TeG
+NA0517,Middle Atlantic coastal forests,NA,5, ,NA_TeF,NA_TeF
+NA0609,Midwestern Canadian Shield forests,NA,6, ,NA_TeF,NA_TeF
+NT0306,Miskito pine forests,NT,3, ,NA_TrG,NA_TrG
+NA0409,Mississippi lowland forests,NA,4, ,NA_TeF,NA_TeF
+NA1308,Mojave desert,NA,13, ,NA_TeG,NA_TeG
+NA0808,Montana Valley and Foothill grasslands,NA,8, ,NA_TeG,NA_TeG
+NT0141,Monte Alegre varzea,NT,1,Amazon River and Flooded Forests,SA_TrF,SA_TrF
+NT1312,Motagua Valley thornscrub,NT,13, ,NA_TrG,NA_TrG
+NA0610,Muskwa-Slave Lake forests,NA,6,Muskwa/Slave Lake Boreal Forests,NA_TeF,NA_TeF
+NT0142,Napo moist forests,NT,1,Napo Moist Forests,SA_TrF,SA_TrF
+NA0809,Nebraska Sand Hills mixed grasslands,NA,8,Northern Prairies,NA_TeG,NA_TeG
+NT0143,Negro-Branco moist forests,NT,1,Rio Negro-Jurua Moist Forests,SA_TrF,SA_TrF
+NA0410,New England-Acadian forests,NA,4, ,NA_TeF,NA_TeF
+NA0611,Newfoundland Highland forests,NA,6, ,NA_TeF,NA_TeF
+NA0518,North Central Rockies forests,NA,5, ,NA_TeF,NA_TeF
+NT0144,Northeastern Brazil restingas,NT,1, ,AH,YM
+NA0411,Northeastern coastal forests,NA,4, ,NA_TeF,NA_TeF
+NT1006,Northern Andean paramo,NT,10,Northern Andean Paramo,SA_TeG,SA_TeG
+NA0519,Northern California coastal forests,NA,5,Pacific temperate rainforests,NA_TeF,NA_TeF
+NA0612,Northern Canadian Shield taiga,NA,6,Canadian boreal taiga,NA_TeF,NA_TeF
+NA0613,Northern Cordillera forests,NA,6,Muskwa/Slave Lake Boreal Forests,NA_TeF,NA_TeF
+NT1404,Northern Mesoamerican Pacific mangroves,NT,14, ,N.A.,N.A.
+NA0810,Northern mixed grasslands,NA,8, ,NA_TeG,NA_TeG
+NA0520,Northern Pacific coastal forests,NA,5,Pacific temperate rainforests,NA_TeF,NA_TeF
+NA0811,Northern short grasslands,NA,8,Northern Prairies,NA_TeG,NA_TeG
+NA0812,Northern tall grasslands,NA,8, ,NA_TeG,NA_TeG
+NA0521,Northern transitional alpine forests,NA,5, ,NA_TeF,NA_TeF
+NA0614,Northwest Territories taiga,NA,6,Canadian boreal taiga,NA_TeF,NA_TeF
+NT0145,Northwestern Andean montane forests,NT,1,Northern Andean Montane Forests,AH,AH
+NT0146,Oaxacan montane forests,NT,1, ,AH,AH
+NA1116,Ogilvie-MacKenzie alpine tundra,NA,11, ,NA_TeG,NA_TeG
+NA0522,Okanagan dry forests,NA,5, ,NA_TeG,NA_TeG
+NT0147,Orinoco Delta swamp forests,NT,1,Guianan Moist Forests,SA_TrF,SA_TrF
+NT0906,Orinoco wetlands,NT,9, ,SA_TrG,SA_TrG
+NA0412,Ozark Mountain forests,NA,4, ,NA_TeF,NA_TeF
+NA1117,Pacific Coastal Mountain icefields and tundra,NA,11, ,NA_TeG,NA_TeG
+NA0813,Palouse grasslands,NA,8, ,NA_TeG,NA_TeG
+NT0224,Panamanian dry forests,NT,2, ,NA_TrF,NA_TrF
+NT0907,Pantanal,NT,9,Pantanal Flooded Savannas,SA_TrG,SA_TrG
+NT0148,Pantanos de Centla,NT,1, ,NA_TrG,NA_TrG
+NT0169,Pantepui,NT,1,Guianan Highlands Moist Forests,SA_TrF,SA_TrF
+NT1313,Paraguana xeric scrub,NT,13, ,SA_TrG,SA_TrG
+NT0908,Parana flooded savanna,NT,9, ,SA_TeG,SA_TeG
+NT0805,Patagonian steppe,NT,8,Patagonian Steppe,SA_TeG,SA_TeG
+NT0225,Patia Valley dry forests,NT,2,Tumbesian-Andean Valleys Dry Forests,SA_TrF,SA_TrF
+NT0151,Pernambuco coastal forests,NT,1,Atlantic Forests,SA_TrF,SA_TrF
+NT0152,Pernambuco interior forests,NT,1,Atlantic Forests,SA_TrF,SA_TrF
+NT0153,Peruvian Yungas,NT,1,Central Andean Yungas,AH,AH
+NT0154,Peten-Veracruz moist forests,NT,1, ,NA_TrF,NA_TrF
+NA0523,Piney Woods forests,NA,5, ,NA_TeF,NA_TeF
+NT0226,Puerto Rican dry forests,NT,2, ,N.A.,N.A.
+NT0155,Puerto Rican moist forests,NT,1,Greater Antillean Moist Forests,N.A.,N.A.
+NA0524,Puget lowland forests,NA,5, ,NA_TeF,NA_TeF
+NT0156,Purus varzea,NT,1,Amazon River and Flooded Forests,SA_TrF,SA_TrF
+NT0157,Purus-Madeira moist forests,NT,1,Southwestern Amazonian Moist Forests,SA_TrF,SA_TrF
+NA0525,Queen Charlotte Islands,NA,5,Pacific temperate rainforests,N.A.,N.A.
+NT0158,Rio Negro campinarana,NT,1,Amazon River and Flooded Forests,SA_TrF,SA_TrF
+NA,Rock and Ice, ,99, ,N.A.,N.A.
+NA,Rock and Ice,NT,99, ,N.A.,N.A.
+NT1314,San Lucan xeric scrub,NT,13,Sonoran-Baja Deserts,NA_TeG,NA_TeG
+NT0159,Santa Marta montane forests,NT,1,Northern Andean Montane Forests,AH,AH
+NT1007,Santa Marta paramo,NT,10,Northern Andean Paramo,SA_TeG,SA_TeG
+NT1315,Sechura desert,NT,13,Atacama-Sechura Deserts,SA_TrG,SA_TrG
+NT0160,Serra do Mar coastal forests,NT,1,Atlantic Forests,AH,YM
+NT0227,Sierra de la Laguna dry forests,NT,2,Southern Mexican Dry Forests,NA_TrF,NA_TrF
+NT0307,Sierra de la Laguna pine-oak forests,NT,3,Sierra Madre Oriental and Occidental pine-oak forests,NA_TrF,NA_TrF
+NT0161,Sierra de los Tuxtlas,NT,1, ,NA_TrF,NA_TrF
+NA0526,Sierra Juarez and San Pedro Martir pine-oak forests,NA,5, ,NA_TeF,NA_TeF
+NT0162,Sierra Madre de Chiapas moist forests,NT,1, ,NA_TrF,NA_TrF
+NT0308,Sierra Madre de Oaxaca pine-oak forests,NT,3,Mesoamerican Pine-Oak Forests,NA_TrF,NA_TrF
+NT0309,Sierra Madre del Sur pine-oak forests,NT,3,Mesoamerican Pine-Oak Forests,NA_TrF,NA_TrF
+NA0302,Sierra Madre Occidental pine-oak forests,NA,3,Sierra Madre Oriental and Occidental pine-oak forests,NA_TeF,NA_TeF
+NA0303,Sierra Madre Oriental pine-oak forests,NA,3,Sierra Madre Oriental and Occidental pine-oak forests,NA_TeF,NA_TeF
+NA0527,Sierra Nevada forests,NA,5,Sierra Nevada Coniferous Forests,NA_TeF,NA_TeF
+NT0228,Sinaloan dry forests,NT,2,Southern Mexican Dry Forests,NA_TrF,NA_TrF
+NT0229,Sinu Valley dry forests,NT,2, ,SA_TrF,SA_TrF
+NA1309,Snake-Columbia shrub steppe,NA,13, ,NA_TeG,NA_TeG
+NT0163,Solimoes-Japura moist forests,NT,1,Rio Negro-Jurua Moist Forests,SA_TrF,SA_TrF
+NA1310,Sonoran desert,NA,13,Sonoran-Baja Deserts,NA_TeG,NA_TeG
+NA0201,Sonoran-Sinaloan transition subtropical dry forest,NA,2,Southern Mexican dry forests,NA_TeF,NA_TeF
+NT1405,South American Pacific mangroves,NT,14,South American Pacific mangroves,N.A.,N.A.
+NA0615,South Avalon-Burin oceanic barrens,NA,6, ,N.A.,N.A.
+NA0528,South Central Rockies forests,NA,5, ,NA_TeF,NA_TeF
+NT0164,South Florida rocklands,NT,1, ,NA_TeF,NA_TeF
+NA0529,Southeastern conifer forests,NA,5,Southeastern conifer and broadleaf forests,NA_TeF,NA_TeF
+NA0413,Southeastern mixed forests,NA,4,Southeastern conifer and broadleaf forests,NA_TeF,NA_TeF
+NT1008,Southern Andean steppe,NT,10, ,SA_TeG,SA_TeG
+NT0165,Southern Andean Yungas,NT,1,Central Andean Yungas,AH,AH
+NT1406,Southern Atlantic mangroves,NT,14, ,N.A.,N.A.
+NT0909,Southern Cone Mesopotamian savanna,NT,9, ,SA_TeG,SA_TeG
+NA0414,Southern Great Lakes forests,NA,4, ,NA_TeF,NA_TeF
+NA0616,Southern Hudson Bay taiga,NA,6, ,NA_TeF,NA_TeF
+NT1407,Southern Mesoamerican Pacific mangroves,NT,14, ,N.A.,N.A.
+NT0230,Southern Pacific dry forests,NT,2,Southern Mexican Dry Forests,NA_TrF,NA_TrF
+NT0166,Southwest Amazon moist forests,NT,1,Southwestern Amazonian Moist Forests,SA_TrF,SA_TrF
+NT0167,Talamancan montane forests,NT,1,Talamancan-Isthmian Pacific Forests,AH,AH
+NA1311,Tamaulipan matorral,NA,13, ,NA_TeG,NA_TeG
+NA1312,Tamaulipan mezquital,NA,13, ,NA_TeG,NA_TeG
+NT0168,Tapajos-Xingu moist forests,NT,1, ,SA_TrF,SA_TrF
+NT1316,Tehuacan Valley matorral,NT,13,Chihuahuan-Tehuacan Deserts,NA_TrG,NA_TrG
+NA0814,Texas blackland prairies,NA,8, ,NA_TeG,NA_TeG
+NT0170,Tocantins/Pindare moist forests,NT,1, ,SA_TrF,SA_TrF
+NA1118,Torngat Mountain tundra,NA,11, ,NA_TeG,NA_TeG
+NT0310,Trans-Mexican Volcanic Belt pine-oak forests,NT,3,Mesoamerican Pine-Oak Forests,NA_TrF,NA_TrF
+NT0171,Trinidad and Tobago moist forests,NT,1, ,N.A.,N.A.
+NT0232,Tumbes-Piura dry forests,NT,2,Tumbesian-Andean Valleys Dry Forests,SA_TrG,SA_TrG
+NT0173,Uatuma-Trombetas moist forests,NT,1, ,SA_TrF,SA_TrF
+NT0174,Ucayali moist forests,NT,1,Napo Moist Forests,SA_TrF,SA_TrF
+NA0415,Upper Midwest forest-savanNA_Transition,NA,4, ,NA_TeG,NA_TeG
+NT0710,Uruguayan savanna,NT,7, ,SA_TeG,SA_TeG
+NT0404,Valdivian temperate forests,NT,4,Valdivian Temperate Rain Forests / Juan Fernandez Islands,SA_TeF,SA_TeF
+NT0175,Venezuelan Andes montane forests,NT,1,Northern Andean Montane Forests,AH,AH
+NT0233,Veracruz dry forests,NT,2, ,NA_TrF,NA_TrF
+NT0176,Veracruz moist forests,NT,1, ,NA_TrF,NA_TrF
+NT0177,Veracruz montane forests,NT,1, ,AH,AH
+NA0530,Wasatch and Uinta montane forests,NA,5, ,NA_TeF,NA_TeF
+NT0178,Western Ecuador moist forests,NT,1,Choco-Darien Moist Forests,SA_TrF,SA_TrF
+NA0416,Western Great Lakes forests,NA,4, ,NA_TeF,NA_TeF
+NA0701,Western Gulf coastal grasslands,NA,7, ,NA_TeG,NA_TeG
+NA0815,Western short grasslands,NA,8, ,NA_TeG,NA_TeG
+NA0417,Willamette Valley forests,NA,4, ,NA_TeF,NA_TeF
+NT0179,Windward Islands moist forests,NT,1, ,N.A.,N.A.
+NA1313,Wyoming Basin shrub steppe,NA,13, ,NA_TeG,NA_TeG
+NT0180,Xingu-Tocantins-Araguaia moist forests,NT,1, ,SA_TrF,SA_TrF
+NT0235,Yucatan dry forests,NT,2, ,NA_TrF,NA_TrF
+NT0181,Yucatan moist forests,NT,1, ,NA_TrF,NA_TrF
+NA0617,Yukon Interior dry forests,NA,6, ,NA_TeF,NA_TeF
